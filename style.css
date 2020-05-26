@@ -1,0 +1,30 @@
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
+
+
+img{
+
+    width: 100px;
+    
+}
+
+#img-topo{
+
+    margin-bottom: 100px;
+    background-color: blue;
+    
+}
+.progress{
+
+    margin: 10px;
+
+    
+}
+
+
+#oops, #yeah{
+
+    display: none;
+
+    
+    
+}

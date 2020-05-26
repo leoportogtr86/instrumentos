@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.7.2/Tone.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <title>Instrumentos Musicais</title>
+  </head>
+  <body>
+
+    <audio id = 'violino' src="violino.mp3"></audio>
+
+    <img src="logo.jpeg" class="rounded mx-auto d-block" alt="">
+   
+    <h1 class="text-center text-primary animate__animated" >Instrumentos Musicais</h1>
+
+    <h2 class="text-center text-secondary">Clique no Instrumento Que Estamos Ouvindo</h2>
+
+    
+    <img id = "img-topo" src="play.png" class="rounded mx-auto d-block" alt="">
+
+    <div class="container">
+
+
+        <div class="row">
+
+            <div class="col">
+
+                <img src="piano.png" id ="item1" class="animate__animated" alt="">
+
+            </div>
+            <div class="col">
+
+                <img src="tambor.png" id ="item2" alt="" class="animate__animated">
+
+            </div>
+            <div class="col">
+
+                <img src="violao.svg" id ="item3" alt="" class="animate__animated">
+
+            </div>
+            <div class="col">
+
+                <img src="violino.png" id ="item4" alt="" class="animate__animated">
+
+            </div>
+            <div class="col">
+
+                <img src="flauta.png" id ="item5" alt="" class="animate__animated">
+
+            </div>
+        </div>
+    </div>
+
+    <div id = 'oops' class="alert-danger text-center ">
+        <h1 class="text-center glyphicon glyphicon-thumbs-down">Oops!</h1>
+    </div>
+
+    <div id = 'yeah' class="alert-info text-center " >
+        <h1 class="text-center glyphicon glyphicon-thumbs-up">Yeah!</h1>
+    </div>
+
+    <div class="progress">
+        <div id = "progresso" class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25%" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+
+  <script src="main2.js"></script>
+</html>
