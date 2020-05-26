@@ -26,6 +26,7 @@ var sampler = new Tone.Sampler({
     topo.onclick = function () {
 
         flauta.play()
+        topo.classList.add('animate__flash')
         
     }
 
